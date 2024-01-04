@@ -1,0 +1,10 @@
+@import url(box.css);
+
+/* 주석 */
+h1 {
+    color: crimson;
+    font-size: 20pt;
+    font-family: 궁서;
+}
+span {background-color: aquamarine;}
+body {color: blue;}

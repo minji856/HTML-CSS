@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상선택자</title>
+    <style>
+        a:hover { color: red; }
+        
+        a:active { color: blue;}
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            transition: 1s;
+        }
+
+        .box:hover {
+            width: 300px;
+            background-color: royalblue;  
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://www.naver.com">네이버로 이동</a><br/><br/>
+    <div class="box"></div>
+</body>
+</html>
