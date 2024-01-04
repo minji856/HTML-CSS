@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test5</title>
+</head>
+<body>
+    <table border="1">
+       <!--테이블로우-->
+       <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+       </tr>
+       <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td><img src="images/duke_point.gif"></td>
+       </tr>
+       <tr>
+        <td>abc</td>
+        <td>def</td>
+        <td>ghi</td>
+        <td>jkl</td>
+       </tr>
+    </table> <hr/>
+    <table border="1">
+        <!--테이블로우-->
+        <tr>
+         <td>1</td>
+         <td colspan="2">2, 3</td>
+         <td>4</td>
+        </tr>
+        <tr>
+         <td rowspan="2">5, abc</td>
+         <td>6</td>
+         <td>7</td>
+         <td><img src="images/duke_point.gif"></td>
+        </tr>
+        <tr>
+         <td>def</td>
+         <td>ghi</td>
+         <td>jkl</td>
+        </tr>
+     </table>
+     <hr/>
+     
+     
+     <div style="background-color: dodgerblue;">내용</div><br/> <!--특별한 기능은 X 뭔가를 배치하기위한 무난한-->
+     <span style="background-color: blueviolet;">내용</span><br/>
+     <table style="width: 100%;">
+           <tr>
+            <td style="background-color: cornflowerblue;">내용</td>
+           </tr>
+     </table>
+     <hr/>
+
+     <div style="background-color: yellow; width: 300px; height: 100px;">내용</div>
+     <div style="background-color: cyan; width: 300px; height: 100px;">내용</div>
+
+     <div style="margin-top: 20px;"> <!--자식태그는 꼭 들여쓰기-->
+       <div style="background-color: yellow; width: 300px; height: 100px;">내용</div>
+       <div style="background-color: cyan; width: 300px; height: 100px;">내용</div>
+    </div>
+    <hr/>
+
+      <div>
+     <div style="background-color: yellow; width: 300px; height: 100px; float: left;">내용</div>
+     <div style="background-color: cyan; width: 300px; height: 100px; float: left;">내용</div>
+     <div style="clear: both;"></div> <!--어디랑 분류해줄건지 양쪽? 왼쪽?-->
+     <div style="margin-top: 20px;"> 
+       <div style="background-color: yellow; width: 300px; height: 100px;">내용</div>
+       <div style="background-color: cyan; width: 300px; height: 100px;">내용</div>
+    </div>
+    <hr/>
+     
+    <div style="width: 600px;"> <!--전체 페이지 크기(스마트폰용 or 웹용)-->
+         <div style="background-color: yellow; height: 50px;">상단 메뉴</div>
+         
+         <div style="margin-top: 10px;"> <!--height 생략가능하지만 둥둥떠다녀서 유동적-->
+           <div style="width: 90px; height: 300px; background-color: red; float: left; margin-right: 10px;">왼쪽 사이드 메뉴</div>
+           <div style="width: 490px; height: 300px; background-color: blue; float: left; margin-left: 10px;">컨텐츠 영역</div>
+           <div style="clear: both;"></div>
+        <div style="background-color: aquamarine; height: 50px; margin-top: 10px;">하단 메뉴</div>
+    </div>
+    </body>
+</html>

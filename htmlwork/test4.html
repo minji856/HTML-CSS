@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test4</title>
+</head>
+<body>
+    <!-- 페이지 이동의 기능 -->
+    <a href="http://www.w3schools.com">w3schools.com</a><br/>
+    <a href="sub/sub1.html" target="_self">ub1.html</a><br/> <!-- 상대경로 -->
+    <a href="/sub/sub2.html" target="_blank">ub2.html</a>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/sub/sub2.html#first">첫 번째 주제</a></li>
+        <li><a href="/sub/sub2.html#second">두 번째 주제</a></li> <!--절대경로-->
+        <li><a href="sub/sub2.html#third">세 번째 주제</a></li>  <!--상대경로-->
+    </ul>
+    <hr/>
+
+    <!-- 다양한 목적으로 사용 ㅣ 프로그램 실행, 다운로드 등 -->
+    <a href="resource/새 압축.zip">다운로드</a><br/> <!--html로 실행할수없으니까 다운로드 유도-->
+    <a href="resource/sample.mp4">동영상 실행</a><br/>
+    <a href="mailto:netsong7@naver.com">netsong7에게 메일 보내기</a><br/>
+    <hr/>
+
+    <!-- 이미지맵 특정영역을 어떻게 잡을거냐 왼쪽머리-네이버 가운데-구글-->
+    <img src="images/Penguins.jpg" alt="" usemap="#Penguins"/>
+
+    <map name="Penguins">
+        <area shape="circle"
+         coords="262, 126, 50"  
+         href="https://www.naver.com"/> <!--x,y,반지름-->
+         <area shape="rect"
+         coords="508, 128, 590 , 200" 
+         href="https://www.daum.net"/> <!--왼쪽위 xy좌표 오른쪽아래xy좌표-->
+    </map>
+
+</body>
+</html>
